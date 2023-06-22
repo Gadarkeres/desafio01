@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: F0E2E7;
+}
+body{
+    background-color: #99c1fa;
+}
+#titulo{
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.582);
+
+}
+
+.conteiner{
+    display: flex;
+    width: 350px;
+    background-color: rgba(226, 223, 223, 0.349);
+    height: 700px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+    margin: auto;
+    margin-top: 120px
+    
+    
+}
+.part1{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px 30px 30px 30px;
+    height: 350px;
+    max-width: 100%;
+    
+    
+
+}
+.conteiner > .part1 > .res{
+    display: flex;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 60px;
+    flex-direction: column;
+    border-radius: 100px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.conteiner> .part1 > .res > #p76{
+    font-weight: 800;
+    flex-direction: column;
+    
+    
+}
+#great{
+    font-weight: 800;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+#text{
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+#p76{
+    font-size: 2.0em;
+}
+
+
+#sumario{
+    display: flex;
+    color:black;
+    font-weight:600;
+    margin-bottom: 300px;
+    margin-right: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+#reaction{
+    display: flex;
+    border:1px solid rgba(0, 0, 0, 0.068);
+    padding: 5px;
+    background-color: rgba(226, 223, 223, 0.863);
+    color: rgba(255, 0, 0, 0.582);
+    border-radius: 10px;
+    margin-top: -140px;
+    justify-content: space-around;
+    
+
+}
+#memory{
+    display: flex;
+    border:1px solid rgba(0, 0, 0, 0.068);
+    padding: 5px;
+    background-color: rgba(226, 223, 223, 0.863);
+    color: hsl(39, 100%, 56%);
+    border-radius: 10px;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+#verbal{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgba(226, 223, 223, 0.863); ;
+    color: hsl(166, 100%, 37%);
+    margin-top: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0, 0, 0, 0.068);
+
+}
+#visual{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgba(226, 223, 223, 0.863); ;
+    color: hsl(234, 85%, 45%);
+    margin-top: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0, 0, 0, 0.068);
+}
+#caixa{
+    margin-top: -300px;
+}
+#button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 220px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: hsl(224, 30%, 47%);
+    transition: 0.5s;
+}
