@@ -24,11 +24,14 @@
     }
     .part2{
         position: relative;
-        top: 40px;
+        top: 20px;
     }
     .conteiner:hover{
         transform:scale(1.2);
         transition: 0.8s;
        
+    }
+    #sumario{
+        padding: 20px;
     }
 }

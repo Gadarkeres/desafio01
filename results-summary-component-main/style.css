@@ -38,8 +38,10 @@ body{
 .part1{
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 30px 30px 30px 30px;
-    height: 350px;
+    height: 380px;
     max-width: 100%;
+
+    
     
     
     
@@ -155,5 +157,8 @@ body{
 #button:hover{
     background-color: hsl(224, 30%, 47%);
     transition: 0.5s;
-    border: none;
+    width: 220px;
+}
+.part2{
+    margin-top: 80px;
 }
