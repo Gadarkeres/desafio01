@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,7 +9,7 @@
 }
 body{
     background-color: #99c1fa;
-    margin:0 auto;
+    height: 100%;
 }
 #titulo{
     margin-top: 20px;
@@ -20,7 +21,7 @@ body{
 .conteiner{
     display: flex;
     width: 350px;
-    background-color: rgba(226, 223, 223, 0.349);
+    background-color:white;
     height: 700px;
     justify-content: center;
     flex-wrap: wrap;
@@ -39,6 +40,7 @@ body{
     border-radius: 30px 30px 30px 30px;
     height: 350px;
     max-width: 100%;
+    
     
     
 

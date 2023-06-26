@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@media screen and (min-width:1028px ){
+    body{
+        height: 100%;
+    }
+    .conteiner{
+    display: flex;
+        width: 700px;
+        height: 400px;
+        flex-wrap: nowrap;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.8s ease-in-out;
+              
+
+    }
+    .part1{
+        position:relative;
+        width: 350px;
+        height: 100%;
+        right: 100px;
+        
+    }
+    .part2{
+        position: relative;
+        top: 40px;
+    }
+    .conteiner:hover{
+        transform:scale(1.2);
+        transition: 0.8s;
+       
+    }
+}
